@@ -1,0 +1,41 @@
+.one-movie {
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    box-shadow: 0px 0px 20px black;
+    transition: all 0.3s ease-out;
+
+}
+
+.one-movie p,
+.one-movie h2 {
+    padding: 0px 10px;
+    font-family: sans-serif;
+
+}
+
+.one-movie p {
+    text-align: left;
+
+}
+
+
+.every-movie {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.one-movie img {
+    width: 100%;
+}
+
+.one-movie:hover {
+    transform: scale(1.04);
+    margin: 6px;
+}
