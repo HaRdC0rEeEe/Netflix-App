@@ -38,7 +38,6 @@ const Movie = () => {
 
     useEffect(() => {
 
-
         const filteredMovies = impData.filter((movie) => {
             return movie["category"] === typeOfMovie;
         });
@@ -87,7 +86,7 @@ const Movie = () => {
 
 
 
-        </div >
+        </div>
     );
 }
 
